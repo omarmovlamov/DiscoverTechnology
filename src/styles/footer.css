@@ -1,0 +1,108 @@
+.footer-main {
+  background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/533bb9280d125b309a000741/cvb.jpg?version=");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 90dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contactCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 400px;
+  background-color: #fff;
+  border: 0.3px solid #000;
+}
+.footer-contactCard h3 {
+  text-align: center;
+  color: #000;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-family: "Montserrat", sans-serif;
+}
+.e-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-contactCard button {
+  color: #ffffff !important;
+  background-color: #232b79 !important;
+  border-radius: 0;
+  height: 53px;
+}
+.footer-contactCard button:hover {
+  border: none;
+  background-color: #6974d3 !important;
+}
+.footer-contactCard input {
+  outline: none;
+  border: 1px solid rgb(36, 36, 36);
+  width: 60%;
+  height: 30px;
+  padding: 10px;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 100;
+  background-color: #ffffff !important;
+}
+.footer-contactCard input::placeholder {
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.footerCard-bottom {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  height: 60%;
+  width: 100%;
+}
+.footerCard-bottom h3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.875rem;
+  line-height: 1.2;
+}
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 30px;
+}
+.footer-socials i {
+  padding: 0 15px;
+}
+@media (max-width: 750px) {
+  .footer-contactCard {
+    width: 450px;
+    height: 400px;
+  }
+  .footer-contactCard h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 530px) {
+  .footer-contactCard button {
+    font-size: 0.5rem;
+  }
+  .footer-contactCard {
+    width: 250px;
+    height: 400px;
+  }
+  .footer-contactCard input::placeholder {
+    font-size: 0.8rem;
+  }
+  .footer-contactCard h3 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,131 @@
+.scrollPage {
+  margin-top: -2px;
+  position: relative;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100dvh;
+  font-family: "Kanit", sans-serif;
+}
+.scrollPage-title {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scrollPage-title h3 {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+.scrollPage-content {
+  color: #000;
+}
+.scrollPage-item {
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  left: 35%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 1em #000;
+}
+.scrollPage-item button {
+  color: black;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.sp-blue-bg {
+  margin-top: 45px;
+  width: 350px;
+  height: 80%;
+  bottom: 0;
+  background-color: #232b79;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.sp-img-bg {
+  margin-top: 40px;
+  width: 500px;
+  height: 70%;
+  background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/5914b5a84d835618bb9e374c/-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 900px) {
+  .scrollPage-title h3 {
+    font-size: 2.5rem;
+  }
+  .sp-img-bg {
+    margin-top: 0px;
+    width: 70%;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .scrollPage-item {
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (max-width: 580px) {
+  .sp-img-bg {
+    width: 80%;
+    height: 35%;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+  }
+  .scrollPage-title h3 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 450px) {
+  .sp-img-bg {
+    margin-top: 40px;
+    width: 80%;
+    height: 35%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+  }
+  .scrollPage-item {
+    margin-top: 20px;
+    left: 50%;
+    top: 67%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 400px;
+  }
+  .sp-blue-bg {
+    margin-top: 20px;
+    margin-top: 45px;
+    width: 90%;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

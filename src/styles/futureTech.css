@@ -1,0 +1,129 @@
+.futureTech-main {
+  margin-top: -2px;
+  position: relative;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  font-family: "Kanit", sans-serif;
+}
+.futureTech-main {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.futureTech-main h2 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.ft-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ft-cardItem {
+  padding: 5px 15px;
+  z-index: 2000;
+  background-color: #fff;
+  width: 250px;
+  height: 200px;
+  box-shadow: 1px 1px 2em rgba(0, 0, 0, 0.329);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ft-cardItem p {
+  padding: 5px 0;
+  font-weight: 300;
+  margin: 0;
+}
+.ft-cardItem p:nth-child(1) {
+  font-size: 1.3rem;
+}
+.ft-img {
+  position: relative;
+}
+.ft-img div {
+  position: relative;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/555/34/486/digital-art-robot-3d-technology-wallpaper-preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  top: 170px;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 800px) and (min-width: 431px) {
+  .ft-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ft-img div {
+    padding: 10px 0;
+    position: static;
+    width: 400px;
+    height: 400px;
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+  }
+  .futureTech-main {
+    position: relative;
+  }
+  .ft-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .ft-cardItem {
+    width: 85%;
+    height: 200px;
+  }
+}
+@media (max-width: 430px) {
+  .ft-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ft-img div {
+    margin: 15px 0;
+    position: static;
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    transform: translate(0, 0);
+  }
+  .futureTech-main {
+    position: relative;
+  }
+  .ft-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .ft-cardItem {
+    width: 85%;
+    height: 200px;
+  }
+}
+@media (max-width: 325px) {
+  .ft-img div {
+    margin: 10px 0;
+    position: static;
+    width: 200px;
+    height: 200px;
+  }
+}

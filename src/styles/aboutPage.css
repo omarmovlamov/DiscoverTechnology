@@ -1,0 +1,235 @@
+.aboutPage {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.a-blue-bg {
+  position: relative;
+  width: 100%;
+  height: 30dvh;
+  background-color: #232b79;
+}
+.a-white-bg {
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #f2f2f2;
+}
+.a-img {
+  background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/bd42e19406b8580098a14e65/swa-min.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80dvh;
+  background-attachment: fixed;
+}
+.a-cardItem p {
+  font-family: "Kanit", sans-serif;
+  color: black;
+  margin: 0;
+}
+.a-card-container {
+}
+.a-card {
+  height: 350px;
+  width: 20%;
+  background-color: #fff;
+  border: 0.5px solid black;
+}
+.a-cardItem {
+  padding: 10px 10px;
+}
+.a-cardItem p:nth-child(1) {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232b79;
+  width: 70px;
+  height: 70px;
+  border: 0;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.a-cardItem h4 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.a-cardItem p:nth-child(3) {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(100, 100, 100, 0.726);
+  font-style: italic;
+  margin: 0px 0px 20px 0px;
+}
+.a-cardItem a {
+  letter-spacing: 1.5px;
+  color: black;
+  font-weight: 300;
+  font-weight: 200;
+  border-bottom: 1px solid #232b79;
+  text-decoration: none;
+}
+.a-cardItem a:hover {
+  color: rgba(0, 0, 0, 0.63);
+}
+.a-lightblue-box {
+  z-index: 100;
+  position: absolute;
+  z-index: 100;
+  background-color: #b8bef0;
+  width: 45%;
+  height: 90dvh;
+  top: -30px;
+  left: 130px;
+}
+.a-whiteText-box {
+  font-family: "Montserrat", sans-serif;
+  padding: 30px;
+  color: #000;
+  z-index: 101;
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+  width: 45%;
+  height: 100dvh;
+  top: -70px;
+  left: 350px;
+}
+.a-whiteText-box h3 {
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.a-header {
+  z-index: 120;
+  position: relative;
+  bottom: -250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.a-bottom {
+  display: none;
+}
+.a-whiteText-box button {
+  outline: none;
+  border: 0px;
+  background-color: #232b79;
+}
+.a-whiteText-box button:hover {
+  background-color: #747edb;
+}
+@media (max-width: 920px) {
+  .a-cardItem p {
+    font-size: 0.8rem;
+  }
+  .a-cardItem h4 {
+    margin: 0;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .a-header {
+    display: none;
+  }
+  .a-bottom {
+    z-index: 120;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .a-blue-bg {
+    height: 100%;
+  }
+  .a-white-bg {
+    position: relative;
+    bottom: 0px;
+  }
+  .a-card-container {
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+  .a-cardItem p:nth-child(3) {
+    margin: 0px 0px 0px 0px;
+  }
+  .a-card {
+    height: 250px;
+    width: 85%;
+  }
+  .a-lightblue-box {
+    z-index: 100;
+    position: absolute;
+    background-color: #b8bef0;
+    width: 45%;
+    height: 90%;
+    top: -30px;
+    left: 0px;
+  }
+  .a-whiteText-box {
+    font-family: "Montserrat", sans-serif;
+    padding: 30px;
+    color: #000;
+    z-index: 101;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    width: 45%;
+    height: 100%;
+    top: -70px;
+    left: 100px;
+  }
+  .a-whiteText-box h3 {
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .a-cardItem p {
+    font-size: 0.8rem;
+  }
+  .a-cardItem h4 {
+    margin: 0;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .a-whiteText-box h3 {
+    font-weight: 400;
+    font-size: 2.5rem;
+  }
+  .a-whiteText-box {
+    width: 55%;
+    top: -70px;
+    left: 50px;
+  }
+  .a-whiteText-box h3 {
+    font-weight: 400;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 300px) {
+  .a-cardItem h4 {
+    margin: 0px;
+  }
+
+  .a-whiteText-box {
+    width: 55%;
+    top: -70px;
+    left: 30px;
+  }
+  .a-whiteText-box p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,68 @@
+.banner-main {
+  height: 100dvh !important;
+}
+.banner-text {
+  height: 100dvh !important;
+  position: relative;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.banner-text h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+.banner-links {
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner-links a {
+  margin-bottom: 2px;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0 20px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+}
+.banner-links a:hover {
+  color: rgb(104, 152, 255);
+  border-right: 0;
+  border-left: 0;
+}
+.banner-text button {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  margin-top: 100px;
+  padding: 5px 30px;
+  border: 1px solid #fff;
+  border-radius: 0;
+  background-color: transparent;
+  transition: 0.5s ease-in;
+  outline: none;
+}
+.banner-text button:hover {
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+@media (min-width: 381px) and (max-width: 600px) {
+  .banner-text {
+    padding: 50px 0px;
+  }
+  .banner-text h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 380px) {
+  .banner-text h2 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
